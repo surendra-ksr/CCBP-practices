@@ -1,0 +1,27 @@
+/* Write your code here. */
+.main-div {
+    background-color: #ffffff;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    padding-left: 35px;
+    font-family: 'Roboto';
+  }
+  .main-h1 {
+    color: #1e293b;
+  }
+  .main-p {
+    color: #64748b;
+  }
+  .ul-div {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 0;
+    padding: 0;
+    flex-wrap: wrap;
+  }
+  

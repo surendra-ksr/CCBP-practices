@@ -1,0 +1,12 @@
+/* Write your code here. */
+.li-item {
+    margin-right: 20px;
+  }
+  .li-btn {
+    border-width: 0;
+    background-color: transparent;
+  }
+  .rem-thumbs {
+    opacity: 0.5;
+  }
+  
