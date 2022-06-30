@@ -1,0 +1,60 @@
+/* Write your CSS here */
+.main-div {
+    background-image: linear-gradient(to right, #f9d423, #e2a139);
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .in-div {
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 40px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #a35200;
+  }
+  .counts-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .main-p {
+    color: #334155;
+    font-weight: 600;
+  }
+  .tossButton {
+    margin: 15px;
+    border-width: 0;
+    background-color: #ffda79;
+    padding: 9px;
+    border-radius: 10px;
+    padding-right: 18px;
+    padding-left: 18px;
+    cursor: pointer;
+  }
+  .req-img {
+    width: 130px;
+  }
+  .pTotal {
+    color: #475569;
+    margin: 20px;
+    font-weight: 500;
+    margin-top: 30px;
+  }
+  
+  @media screen and (max-width: 767px) {
+    .counts-div {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+  
