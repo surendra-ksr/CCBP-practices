@@ -1,0 +1,61 @@
+/* Write your CSS here */
+.main-div {
+  background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+  font-family: 'Bree Serif';
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 5vw;
+  background-size: cover;
+  min-height: 100vh;
+}
+.ul-appsDiv {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.main-h1 {
+  font-size: 40px;
+}
+.search-item {
+  border-width: 0;
+  outline: none;
+}
+.input-div {
+  margin-top: 35px;
+  border-color: #7b8794;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 3px;
+  width: 45vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 8px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.searchImage {
+  width: 22px;
+}
+.search-item {
+  color: #7b8794;
+  font-weight: bold;
+  background-color: transparent;
+  border-width: 0;
+  outline: none;
+  font-size: 15px;
+  width: 40vw;
+}
+.ul-tabsDiv {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0;
+}
